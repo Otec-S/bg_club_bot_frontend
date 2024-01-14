@@ -1,0 +1,15 @@
+.header {
+  text-align: center;
+  margin-top: 47px;
+  margin-bottom: 69px;
+}
+
+.header__title {
+  font-weight: 600;
+  color: var(--second-color);
+  text-shadow: -1px -1px 0 rgba(20, 20, 20, 1), 1px -1px 0 rgba(20, 20, 20, 1),
+    -1px 1px 0 rgba(20, 20, 20, 1), 1px 1px 0 rgba(20, 20, 20, 1);
+  font-size: 39px;
+}
+
+
