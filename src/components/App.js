@@ -7,11 +7,11 @@ import SiteMenu from "./SiteMenu/SiteMenu";
 import Main from "./Main/Main";
 
 function App() {
-  const { onToggleButton, tg } = useTelegram();
+  // const { onToggleButton, tg } = useTelegram();
 
-  useEffect(() => {
-    tg.ready();
-  }, []);
+  // useEffect(() => {
+  //   tg.ready();
+  // }, []);
 
   return (
     <div>
