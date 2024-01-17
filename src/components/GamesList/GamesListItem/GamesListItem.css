@@ -1,0 +1,20 @@
+h2, a {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+.games-list-item {
+  width: 312px;
+  height: 43px;
+  border-radius: 25px;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
