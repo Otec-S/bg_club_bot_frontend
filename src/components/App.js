@@ -8,8 +8,10 @@ import { Route, Router, Routes } from "react-router-dom";
 import SiteMenu from "./SiteMenu/SiteMenu";
 import Main from "./Main/Main";
 import GamesList from "./GamesList/GamesList";
+import Rules from "./Rules/Rules";
 
 function App() {
+  //  window.Telegram.WebApp.expand();
   // const { onToggleButton, tg } = useTelegram();
 
   // useEffect(() => {
@@ -21,10 +23,10 @@ function App() {
     <div>
       <Routes>
         <Route
-          path="/"
+          path="/bg_club_bot_frontend"
           element={
             <>
-              <Header headerTitle="Board Game Club"/>
+              <Header headerTitle="Board Game Club" />
               <Main />
             </>
           }
@@ -33,8 +35,17 @@ function App() {
           path="/gameslist"
           element={
             <>
-              <Header headerTitle="Список игр"/>
+              <Header headerTitle="Список игр" />
               <GamesList />
+            </>
+          }
+        />
+        <Route
+          path="/rules"
+          element={
+            <>
+              <Header headerTitle="Правила клуба" />
+              <Rules />
             </>
           }
         />
