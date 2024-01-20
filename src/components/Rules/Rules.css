@@ -9,18 +9,18 @@
   margin-bottom: 69px;
 }
 
-ul {
+.rules__list {
   list-style-type: none; /* Убираем стандартную маркировку */
 }
 
-li {
+.rules__list-item {
   font-size: 12px;
   line-height: 1.5; /* Задаем межстрочное состояние */
   position: relative; /* Устанавливаем позицию элемента */
   padding-left: 1.3em; /* Добавляем отступ слева для создания места под маркер */
 }
 
-li:before {
+.rules__list-item:before {
   content: "•"; /* Устанавливаем символ маркера (белый кружок) */
   color: #fff; /* Задаем цвет маркера (белый) */
   font-size: 2em; /* Устанавливаем размер маркера */
