@@ -15,7 +15,7 @@
 }
 
 .rules__list-item {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5; /* Задаем межстрочное состояние */
   position: relative; /* Устанавливаем позицию элемента */
   padding-left: 1.3em; /* Добавляем отступ слева для создания места под маркер */
