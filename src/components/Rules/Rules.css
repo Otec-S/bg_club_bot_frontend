@@ -1,12 +1,13 @@
 .rules {
-  width: 312px;
-  height: 453px;
+  width: 252px;
+  /* height: 437px; */
   border: 1px solid #000;
   padding: 21px 26px;
   background-color: var(--second-color);
   border-radius: 25px;
   margin: auto;
   margin-bottom: 69px;
+  box-sizing: content-box;
 }
 
 .rules__list {
@@ -14,19 +15,20 @@
 }
 
 .rules__list-item {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5; /* Задаем межстрочное состояние */
   position: relative; /* Устанавливаем позицию элемента */
   padding-left: 1.3em; /* Добавляем отступ слева для создания места под маркер */
+  margin-top: 10px;
 }
 
 .rules__list-item:before {
-  content: "•"; /* Устанавливаем символ маркера (белый кружок) */
-  color: #fff; /* Задаем цвет маркера (белый) */
-  font-size: 2em; /* Устанавливаем размер маркера */
-  position: absolute; /* Позиционируем маркер абсолютно относительно элемента li */
-  left: -5px; /* Выравниваем маркер по левому краю элемента li */
-  top: -7px;
+  content: "•";
+  color: #fff;
+  font-size: 2em;
+  position: absolute;
+  left: -5px;
+  top: -11px;
 }
 
 .italic {

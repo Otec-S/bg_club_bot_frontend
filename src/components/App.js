@@ -46,6 +46,7 @@ function App() {
           path="/rules"
           element={
             <>
+              <ButtonsBlock />
               <Header headerTitle="Правила клуба" />
               <Rules />
             </>
