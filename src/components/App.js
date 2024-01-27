@@ -9,6 +9,7 @@ import SiteMenu from "./SiteMenu/SiteMenu";
 import Main from "./Main/Main";
 import GamesList from "./GamesList/GamesList";
 import Rules from "./Rules/Rules";
+import ButtonsBlock from "./ButtonsBlock/ButtonsBlock";
 
 function App() {
   //  window.Telegram.WebApp.expand();
@@ -26,7 +27,7 @@ function App() {
           path="/bg_club_bot_frontend"
           element={
             <>
-              <Header headerTitle="Board Game Club" />
+              {/* <Header headerTitle="Board Game Club" /> */}
               <Main />
             </>
           }
@@ -35,6 +36,7 @@ function App() {
           path="/gameslist"
           element={
             <>
+              <ButtonsBlock />
               <Header headerTitle="Список игр" />
               <GamesList />
             </>

@@ -1,0 +1,29 @@
+.buttons-block {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  margin-top: 35px;
+  margin-bottom: 17px;
+}
+
+.return-button {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.home-button {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: var(--second-color);
+}
