@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bg_club_bot_frontend/static/css/main.3d624a1c.css",
-    "main.js": "/bg_club_bot_frontend/static/js/main.506525b9.js",
+    "main.css": "/bg_club_bot_frontend/static/css/main.0b993cad.css",
+    "main.js": "/bg_club_bot_frontend/static/js/main.01f1e763.js",
     "static/media/button-home.svg": "/bg_club_bot_frontend/static/media/button-home.fe82835996f756f00c216882ae1bb57c.svg",
     "static/media/button-return.svg": "/bg_club_bot_frontend/static/media/button-return.b07a6c8a6ea565c107b423a2afe4d7ff.svg",
     "static/media/main-decorated.svg": "/bg_club_bot_frontend/static/media/main-decorated.93df5936dc5e923bdf1c.svg",
     "index.html": "/bg_club_bot_frontend/index.html",
-    "main.3d624a1c.css.map": "/bg_club_bot_frontend/static/css/main.3d624a1c.css.map",
-    "main.506525b9.js.map": "/bg_club_bot_frontend/static/js/main.506525b9.js.map"
+    "main.0b993cad.css.map": "/bg_club_bot_frontend/static/css/main.0b993cad.css.map",
+    "main.01f1e763.js.map": "/bg_club_bot_frontend/static/js/main.01f1e763.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d624a1c.css",
-    "static/js/main.506525b9.js"
+    "static/css/main.0b993cad.css",
+    "static/js/main.01f1e763.js"
   ]
 }
