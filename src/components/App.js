@@ -9,6 +9,7 @@ import Rules from "./Rules/Rules";
 import ButtonsBlock from "./ButtonsBlock/ButtonsBlock";
 import TeseraCard from "./TeseraCard/TeseraCard";
 import Location from "./Location/Location";
+import Photos from "./Photos/Photos";
 
 
 function App() {
@@ -44,6 +45,16 @@ function App() {
                 <ButtonsBlock />
                 <Header headerTitle="Адрес клуба" />
                 <Location />
+              </>
+            }
+          />
+          <Route
+            path="/photos"
+            element={
+              <>
+                <ButtonsBlock />
+                <Header headerTitle="Фотографии" />
+                <Photos />
               </>
             }
           />

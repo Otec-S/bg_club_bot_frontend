@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
-import { useParams } from "react-router-dom";
 import "./Location.css";
 
 const Location = () => {

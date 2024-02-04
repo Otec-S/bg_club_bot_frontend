@@ -20,3 +20,5 @@ body {
   flex-direction: column;
   margin: auto;
 }
+
+@import "~react-image-gallery/styles/css/image-gallery.css";
