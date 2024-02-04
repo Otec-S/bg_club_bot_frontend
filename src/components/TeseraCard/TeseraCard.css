@@ -1,0 +1,11 @@
+.rules {
+  width: 100%;
+  border: 1px solid #000;
+  padding: 21px 26px;
+  background-color: white;
+  border-radius: 25px;
+  margin: auto;
+  margin-bottom: 69px;
+  box-sizing:border-box;
+}
+
