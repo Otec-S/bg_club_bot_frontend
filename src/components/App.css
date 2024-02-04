@@ -11,8 +11,6 @@ h1 {
 }
 
 body {
-  /* background-color: var(--tg-theme-bg-color);
-  color: var(--tg-theme-text-color); */
   width: 100%;
   max-width: 360px;
   background-color: var(--main-color);
