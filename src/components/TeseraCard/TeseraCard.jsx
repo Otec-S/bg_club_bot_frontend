@@ -9,7 +9,7 @@ const TeseraCard = () => {
 
   return (
     <div
-    className="rules"
+    className="tesera-card"
     >
       <iframe
         src={link}

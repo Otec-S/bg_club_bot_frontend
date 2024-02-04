@@ -8,6 +8,8 @@ import GamesList from "./GamesList/GamesList";
 import Rules from "./Rules/Rules";
 import ButtonsBlock from "./ButtonsBlock/ButtonsBlock";
 import TeseraCard from "./TeseraCard/TeseraCard";
+import Location from "./Location/Location";
+
 
 function App() {
   return (
@@ -32,6 +34,16 @@ function App() {
                 <ButtonsBlock />
                 <Header headerTitle="Правила клуба" />
                 <Rules />
+              </>
+            }
+          />
+          <Route
+            path="/location"
+            element={
+              <>
+                <ButtonsBlock />
+                <Header headerTitle="Адрес клуба" />
+                <Location />
               </>
             }
           />
