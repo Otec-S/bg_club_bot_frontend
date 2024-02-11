@@ -1,3 +1,5 @@
-Фронтенд часть для Телеграмм бота клуба настольных игр в г. Ташкенте.
-Сам бот: https://t.me/BG_clubbot.
-Группа настольного клуба: https://t.me/bgeveningclub.
+# Telegram Web App for the board games club in Tashkent _(ReactJS)_
+
+The bot itself: **https://t.me/BG_clubbot**
+
+Board games club group: **https://t.me/bgeveningclub**
