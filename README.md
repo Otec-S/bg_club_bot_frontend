@@ -7,3 +7,7 @@
 The bot itself: **https://t.me/BG_clubbot**
 
 Board games club group: **https://t.me/bgeveningclub**
+
+---
+
+***Attention, the project is not finished and is being worked on***
