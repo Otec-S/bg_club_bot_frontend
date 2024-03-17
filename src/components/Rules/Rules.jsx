@@ -6,6 +6,9 @@ const Rules = () => {
     <div className="rules">
       <ul className="rules__list">
         <li className="rules__list-item">
+          В настоящее время игротеки проводятся <span className="italic">каждую субботу с 15:00</span>
+        </li>
+        <li className="rules__list-item">
           На мероприятие нужно <span className="italic">регистрироваться заранее</span> (по четвергам запускаем
           опрос), чтобы всем хватило места, и отменять регистрацию, если не
           придете, по той же причине.

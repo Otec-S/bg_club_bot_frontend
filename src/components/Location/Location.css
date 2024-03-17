@@ -9,3 +9,15 @@
   box-sizing:border-box;
 }
 
+.location__title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.location__subtitle {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
