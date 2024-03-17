@@ -3,7 +3,6 @@ import image2 from "./images/photos/2.jpg";
 import image3 from "./images/photos/3.jpg";
 import image4 from "./images/photos/4.jpg";
 
-
 export const CARD_DATA = [
   {
     id: 1,
@@ -26,60 +25,91 @@ export const CARD_DATA = [
   },
 ];
 
+/*
+Море, соль, бумага
+Кровь и ярость
+Опасные слова
+Нидавеллир
+Письма призрака
+Мастера пламени
+Кодовые имена
+Каркассон: Королевский подарок
+Рес Аркана
+Цитадели
+Повелитель Токио
+Гномы-вредители
+Тип Топ
+Билет на поезд: Европа
+Бункер
+Имаджинариум
+Азул. Летний дворец
+Similo.  История и мифы
+Пять племён
+*/
+
 export const GAME_DATA = [
   {
     id: 1,
-    title: "Имаджинариум",
+    title: "Море, соль, бумага",
     backgroundColor: "var(--second-color)",
-    link: "https://m.tesera.ru/games/imaginarium",
+
+    link: "https://m.tesera.ru/games/sea-salt-paper",
   },
   {
     id: 2,
-    title: "Место преступления",
+    title: "Кровь и ярость",
     backgroundColor: "white",
-    link: "https://m.tesera.ru/games/Chronicles-of-Crime",
+
+    link: "https://m.tesera.ru/games/blood-rage",
   },
   {
     id: 3,
-    title: "Серия 'Элементарно'",
+    title: "Опасные слова",
     backgroundColor: "var(--second-color)",
-    link: "https://m.tesera.ru/games/sherlock-last-call/",
+
+    link: "https://m.tesera.ru/games/Trapwords",
   },
   {
     id: 4,
-    title: "Сиггил",
+    title: "Нидавеллир",
     backgroundColor: "white",
-    link: "https://m.tesera.ru/games/siggil/",
+
+    link: "https://m.tesera.ru/games/nidavellir",
   },
   {
     id: 5,
-    title: "Данетки",
+    title: "Письма призрака",
     backgroundColor: "var(--second-color)",
-    link: "https://m.tesera.ru/games/danetki/",
+
+    link: "https://m.tesera.ru/games/pisma-prizraka",
   },
   {
     id: 6,
-    title: "Ётта",
+    title: "Мастера пламени",
     backgroundColor: "white",
-    link: "https://m.tesera.ru/games/IOTA/",
+
+    link: "https://m.tesera.ru/games/flamecraft",
   },
   {
     id: 7,
-    title: "Монополия",
+    title: "Кодовые имена",
     backgroundColor: "var(--second-color)",
-    link: "https://m.tesera.ru/games/monopoliya-delyuks/",
+
+    link: "https://m.tesera.ru/games/codenames",
   },
   {
     id: 8,
-    title: "Бункер",
+    title: "Королевский Каркассон",
     backgroundColor: "white",
-    link: "https://m.tesera.ru/games/1bunker/",
+
+    link: "https://m.tesera.ru/games/karkasson-korolevskii-podarok",
   },
   {
     id: 9,
-    title: "Нуар",
+    title: "Рес Аркана",
     backgroundColor: "var(--second-color)",
-    link: "https://m.tesera.ru/games/noir/",
+
+    link: "https://m.tesera.ru/games/Res-Arcana",
   },
   {
     id: 10,
@@ -89,9 +119,66 @@ export const GAME_DATA = [
   },
   {
     id: 11,
-    title: "Cluedo (дорожная)",
+    title: "Цитадели",
     backgroundColor: "var(--second-color)",
-    link: "https://m.tesera.ru/games/Cluedohasbro/",
+    
+    link: "https://m.tesera.ru/games/citadels",
+  },
+  {
+    id: 12,
+    title: "Повелитель Токио",
+    backgroundColor: "white",
+
+    link: "https://m.tesera.ru/games/king-of-tokyo",
+  },
+  {
+    id: 13,
+    title: "Гномы-вредители",
+    backgroundColor: "var(--second-color)",
+    
+    link: "https://m.tesera.ru/games/saboteur",
+  },
+  {
+    id: 14,
+    title: "Тип Топ",
+    backgroundColor: "white",
+    
+    link: "https://m.tesera.ru/games/top-ten",
+  },
+  {
+    id: 15,
+    title: "Новые римляне",
+    backgroundColor: "var(--second-color)",
+    
+    link: "https://m.tesera.ru/games/lotta-rome",
+  },
+  {
+    id: 16,
+    title: "Similo.  История и мифы",
+    backgroundColor: "white",
+    
+    link: "https://m.tesera.ru/games/similo-myths",
+  },
+  {
+    id: 17,
+    title: "Пять племён",
+    backgroundColor: "var(--second-color)",
+    
+    link: "https://m.tesera.ru/games/5tribes",
+  },
+  {
+    id: 18,
+    title: "Бункер",
+    backgroundColor: "white",
+
+    link: "https://m.tesera.ru/games/1bunker/",
+  },
+  {
+    id: 19,
+    title: "Имаджинариум",
+    backgroundColor: "var(--second-color)",
+
+    link: "https://m.tesera.ru/games/imaginarium",
   },
 ];
 
