@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bg_club_bot_frontend/static/css/main.eb593600.css",
-    "main.js": "/bg_club_bot_frontend/static/js/main.c7137bde.js",
+    "main.css": "/bg_club_bot_frontend/static/css/main.939f011a.css",
+    "main.js": "/bg_club_bot_frontend/static/js/main.3a4561d0.js",
     "static/media/1.jpg": "/bg_club_bot_frontend/static/media/1.4364181afd5abd396b79.jpg",
     "static/media/2.jpg": "/bg_club_bot_frontend/static/media/2.e5ea33d47ac7722bd723.jpg",
     "static/media/3.jpg": "/bg_club_bot_frontend/static/media/3.2720231b5ca0f4afc615.jpg",
@@ -10,11 +10,11 @@
     "static/media/button-return.svg": "/bg_club_bot_frontend/static/media/button-return.b07a6c8a6ea565c107b423a2afe4d7ff.svg",
     "static/media/main-decorated.svg": "/bg_club_bot_frontend/static/media/main-decorated.93df5936dc5e923bdf1c.svg",
     "index.html": "/bg_club_bot_frontend/index.html",
-    "main.eb593600.css.map": "/bg_club_bot_frontend/static/css/main.eb593600.css.map",
-    "main.c7137bde.js.map": "/bg_club_bot_frontend/static/js/main.c7137bde.js.map"
+    "main.939f011a.css.map": "/bg_club_bot_frontend/static/css/main.939f011a.css.map",
+    "main.3a4561d0.js.map": "/bg_club_bot_frontend/static/js/main.3a4561d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb593600.css",
-    "static/js/main.c7137bde.js"
+    "static/css/main.939f011a.css",
+    "static/js/main.3a4561d0.js"
   ]
 }
