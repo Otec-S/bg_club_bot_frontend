@@ -25,28 +25,6 @@ export const CARD_DATA = [
   },
 ];
 
-/*
-Море, соль, бумага
-Кровь и ярость
-Опасные слова
-Нидавеллир
-Письма призрака
-Мастера пламени
-Кодовые имена
-Каркассон: Королевский подарок
-Рес Аркана
-Цитадели
-Повелитель Токио
-Гномы-вредители
-Тип Топ
-Билет на поезд: Европа
-Бункер
-Имаджинариум
-Азул. Летний дворец
-Similo.  История и мифы
-Пять племён
-*/
-
 export const GAME_DATA = [
   {
     id: 1,
@@ -179,6 +157,14 @@ export const GAME_DATA = [
     backgroundColor: "var(--second-color)",
 
     link: "https://m.tesera.ru/games/imaginarium",
+  },
+  {
+    id: 20,
+    title: "Вся коллекция",
+    backgroundColor: "var(--first-color)",
+
+    link: "https://tesera.ru/user/KrisAleks/games/owns/",
+    isLast: true
   },
 ];
 

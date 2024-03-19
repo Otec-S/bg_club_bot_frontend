@@ -18,3 +18,7 @@ h2, a {
   justify-content: center;
   align-items: center;
 }
+
+.last-item {
+  border: 1px solid white;
+}
