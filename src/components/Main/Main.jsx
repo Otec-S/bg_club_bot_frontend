@@ -3,18 +3,7 @@ import MenuCard from "./MenuCard/MenuCard";
 import "./Main.css";
 import { CARD_DATA } from "../../constants";
 
-import {
-  Bounce,
-  Fade,
-  Flip,
-  Hinge,
-  JackInTheBox,
-  Roll,
-  Rotate,
-  Slide,
-  Zoom,
-  AttentionSeeker,
-} from "react-awesome-reveal";
+import { Fade, Slide } from "react-awesome-reveal";
 
 const Main = () => {
   return (

@@ -1,18 +1,7 @@
 import React from "react";
 import "./Rules.css";
 
-import {
-  Bounce,
-  Fade,
-  Flip,
-  Hinge,
-  JackInTheBox,
-  Roll,
-  Rotate,
-  Slide,
-  Zoom,
-  AttentionSeeker,
-} from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const Rules = () => {
   return (

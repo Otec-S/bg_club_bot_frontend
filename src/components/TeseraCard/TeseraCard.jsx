@@ -3,18 +3,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import "./TeseraCard.css";
 
-import {
-  Bounce,
-  Fade,
-  Flip,
-  Hinge,
-  JackInTheBox,
-  Roll,
-  Rotate,
-  Slide,
-  Zoom,
-  AttentionSeeker,
-} from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const TeseraCard = () => {
   const { link } = useParams();
