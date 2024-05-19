@@ -8,11 +8,11 @@ const MenuCard = ({ title, backgroundColor, path }) => {
   };
 
   return (
-    <li className="menu-card" style={cardStyle}>
-      <Link to={path} className="menu-card__title">
-        <h2>{title}</h2>
-      </Link>
-    </li>
+    <Link to={path}>
+      <li className="menu-card" style={cardStyle}>
+        <h2 className="menu-card__title">{title}</h2>
+      </li>
+    </Link>
   );
 };
 

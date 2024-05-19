@@ -3,21 +3,28 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import "./TeseraCard.css";
 
-const TeseraCard = () => {
+import {
+  Bounce,
+  Fade,
+  Flip,
+  Hinge,
+  JackInTheBox,
+  Roll,
+  Rotate,
+  Slide,
+  Zoom,
+  AttentionSeeker,
+} from "react-awesome-reveal";
 
+const TeseraCard = () => {
   const { link } = useParams();
 
   return (
-    <div
-    className="tesera-card"
-    >
-      <iframe
-        src={link}
-        width="100%"
-        height="400"
-        frameBorder="0"
-      ></iframe>
-   </div>
+    <Fade>
+      <div className="tesera-card">
+        <iframe src={link} width="100%" height="400" frameBorder="0"></iframe>
+      </div>
+    </Fade>
   );
 };
 
