@@ -1,18 +1,7 @@
 import React from "react";
 import "./Header.css";
 
-import {
-  Bounce,
-  Fade,
-  Flip,
-  Hinge,
-  JackInTheBox,
-  Roll,
-  Rotate,
-  Slide,
-  Zoom,
-  AttentionSeeker,
-} from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 
 const Header = ({ headerTitle }) => {
   return (

@@ -4,18 +4,7 @@ import returnButton from "../../images/button-return.svg";
 import homeButton from "../../images/button-home.svg";
 import { useNavigate } from "react-router-dom";
 
-import {
-  Bounce,
-  Fade,
-  Flip,
-  Hinge,
-  JackInTheBox,
-  Roll,
-  Rotate,
-  Slide,
-  Zoom,
-  AttentionSeeker,
-} from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 
 const ButtonsBlock = () => {
   const navigate = useNavigate();

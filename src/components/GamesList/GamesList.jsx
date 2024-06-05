@@ -3,18 +3,7 @@ import GamesListItem from "./GamesListItem/GamesListItem";
 import { GAME_DATA } from "../../constants";
 import "./GamesList.css";
 
-import {
-  Bounce,
-  Fade,
-  Flip,
-  Hinge,
-  JackInTheBox,
-  Roll,
-  Rotate,
-  Slide,
-  Zoom,
-  AttentionSeeker,
-} from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const GameList = () => {
   return (
