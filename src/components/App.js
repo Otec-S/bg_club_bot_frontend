@@ -10,7 +10,7 @@ import ButtonsBlock from "./ButtonsBlock/ButtonsBlock";
 import TeseraCard from "./TeseraCard/TeseraCard";
 import Location from "./Location/Location";
 import Photos from "./Photos/Photos";
-
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -70,6 +70,7 @@ function App() {
           />
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 }
